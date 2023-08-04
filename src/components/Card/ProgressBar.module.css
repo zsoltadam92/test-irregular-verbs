@@ -1,0 +1,19 @@
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress {
+  height: 100%;
+  background-color: #06ad06;
+  border-top-left-radius: 15px;
+  transition: width 0.3s ease-in-out;
+}

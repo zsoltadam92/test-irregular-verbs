@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  input {
+    width: 70%;
+  }
+
+  .headerButton {
+    margin: 0.5rem auto 1rem;
+  }
+}

@@ -1,0 +1,18 @@
+.volume {
+  cursor: pointer;
+  margin-right: 0.3rem;
+}
+
+.volume:hover {
+  transform: scale(1.2);
+}
+
+.sentenceEn {
+  text-align: center;
+  cursor: pointer;
+}
+.sentenceHu {
+  font-size: 0.8rem;
+  margin-top: 0;
+  margin-left: 0.5rem;
+}

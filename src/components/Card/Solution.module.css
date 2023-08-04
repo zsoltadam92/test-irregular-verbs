@@ -1,0 +1,13 @@
+.verbForms {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.volume {
+  cursor: pointer;
+  margin-right: 0.3rem;
+}
+
+.volume:hover {
+  transform: scale(1.2);
+}

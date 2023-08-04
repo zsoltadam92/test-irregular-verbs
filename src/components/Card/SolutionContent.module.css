@@ -1,0 +1,8 @@
+.solution {
+  opacity: 0;
+}
+
+.show-solution {
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}

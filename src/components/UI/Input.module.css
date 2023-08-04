@@ -1,0 +1,30 @@
+input {
+  position: relative;
+  height: 3rem;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font: inherit;
+  padding: 0.5rem;
+  z-index: 1;
+  text-align: center;
+  outline: none;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.correct {
+  border: 4px solid #06ad06;
+  color: #06ad06;
+  background-color: #d9f6c1;
+}
+
+.incorrect {
+  border: 4px solid #f01a1a;
+  color: #f01a1a;
+  background-color: #fcd8db;
+  text-decoration-line: line-through;
+}

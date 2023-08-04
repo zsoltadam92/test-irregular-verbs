@@ -1,0 +1,13 @@
+.table-cell {
+  /* display: inline-block; */
+  cursor: pointer;
+}
+
+.volume {
+  /* cursor: pointer; */
+  margin-right: 0.3rem;
+}
+
+.volume:hover {
+  transform: scale(1.2);
+}

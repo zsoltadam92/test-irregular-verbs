@@ -1,0 +1,55 @@
+/* Define the container for the table */
+.table-container {
+  overflow: auto; /* Enable scrolling for the table content */
+  max-height: 400px; /* Set a maximum height to make it scrollable */
+  background-color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+/* Style for scrollbar track */
+.table-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Style for scrollbar thumb */
+.table-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 15px;
+}
+
+/* Optional: Style for scrollbar thumb when hovered */
+.table-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Style the table */
+.sticky-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Style the table header */
+.sticky-table thead th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Style the table body */
+.sticky-table tbody td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* .meaning-column {
+  width: 200px;
+} */

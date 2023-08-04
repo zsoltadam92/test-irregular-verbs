@@ -1,0 +1,18 @@
+.short-verbForm {
+  position: relative;
+  width: 2rem;
+  text-align: center;
+  margin: -0.5rem auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.v2 {
+  background-color: #0785f2;
+  color: #f0f0f0;
+}
+
+.v3 {
+  background-color: #f2a2dd;
+}
